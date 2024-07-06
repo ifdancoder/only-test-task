@@ -12,7 +12,7 @@
 ## Методы API и их параметры
 - api/register - POST - (параметры: name, email, password)
 - api/login - POST - (параметры: email, password)
-- api/car-models - GET - 
-- api/comfort-categories - GET - 
+- api/car-models - GET
+- api/comfort-categories - GET
 - api/car-booking - POST - (параметры: start_datetime, end_datetime, car_id)
 - api/available-cars - GET - (параметры: start_datetime, end_datetime, comfort_category_id, model_id)
