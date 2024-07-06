@@ -18,6 +18,6 @@ Route::controller(UserController::class)->group(function(){
         Route::get('comfort-categories', 'getAvailableComfortCategories');
         Route::get('car-models', 'getAvailableCarModels');
         Route::get('available-cars', 'getAvailableCars');
-        Route::get('car-booking', 'carBooking');
+        Route::post('car-booking', 'carBooking');
     });
 });
